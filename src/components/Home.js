@@ -4,7 +4,7 @@ import '../App.css'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Button } from "@mui/material";
-import Link from "@mui/material/Link";
+import { Link } from "@mui/material";
 import cv from "../Documents/BANSAL_DHANANJHAY_RESUME.pdf"
 
 function Home() {

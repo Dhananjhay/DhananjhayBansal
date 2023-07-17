@@ -1,7 +1,7 @@
 import React from "react";
 import covid_site from '../Images/covid-site.png'
 import cnn from '../Images/cnn.png'
-import Link from "@mui/material/Link";
+import { Link } from "@mui/material";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import '../App.css'
 
