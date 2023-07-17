@@ -26,7 +26,7 @@ function Home() {
                     color: "#e9d35b",
                     marginRight: "1%",
                 }}>
-                    Hi! I recently graduated from University of Alberta with a Bachelors of Science with Honors degree in Astrophysics. Although, I am a junior astrophysicist by education, I have been developing softwares and studying computer science for more than 2 years now, having contributed to 3 upcoming Canadian Telescope missions: Hydrogen Intensity and Real-time Analysis eXperiment (HIRAX), Cosmological Advanced Survey Telescope for Optical and uv Research (CASTOR), and Photometric Observations of Exoplanet Transits (POET). In my free time, I love listening to orchestra or playing soccer. 
+                    Hi! I recently graduated from University of Alberta with a Bachelors of Science with Honors degree in Astrophysics. Although, I am a junior astrophysicist by education, I have been developing softwares and studying computer science for more than 2 years now. I have contributed to 3 upcoming Canadian Telescope missions: Hydrogen Intensity and Real-time Analysis eXperiment (HIRAX), Cosmological Advanced Survey Telescope for Optical and uv Research (CASTOR), and Photometric Observations of Exoplanet Transits (POET). In my free time, I love listening to orchestra or playing soccer. 
                 </h4>
                 <div 
                 style={{
