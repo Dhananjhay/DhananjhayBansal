@@ -1,11 +1,12 @@
 import React from "react";
-import cover_photo from '../Images/cover_photo.jpeg'
+import cover_photo from '../images/cover_photo.jpeg'
 import '../App.css'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { Button } from "@mui/material";
-import { Link } from "@mui/material";
-import cv from "../Documents/BANSAL_DHANANJHAY_RESUME.pdf"
+import ArticleIcon from '@mui/icons-material/Article';
+import EmailIcon from '@mui/icons-material/Email';import { Link } from "@mui/material";
+import cv from "../documents/BANSAL_DHANANJHAY_RESUME.pdf"
+import Tooltip from '@mui/material/Tooltip';
 
 function Home() {
     return (
@@ -13,51 +14,64 @@ function Home() {
             <img 
             src={cover_photo} 
             style={{
+                width: '350px',
+                height: '350px',
+                maxWidth: '100%',
                 borderRadius: '50%',
-                width: '25%',
+                marginBottom: "2%"
                 }}/>
-                <div className="aboutMe">
-            <h1 style={{
-                color: "white",
-                marginTop: "0%"
-            }}>Dhananjhay Bansal</h1>
-                <h4 
+                <div className="home-button">
+                <Tooltip title="LinkedIn">
+                <Link 
+                href="https://www.linkedin.com/in/dhananjhay-bansal-637105193/" target="_blank">
+                <LinkedInIcon 
                 style={{
-                    color: "#e9d35b",
-                    marginRight: "1%",
-                }}>
-                    Hi! I recently graduated from University of Alberta with a Bachelors of Science with Honors degree in Astrophysics. Although, I am a junior astrophysicist by education, I have been developing softwares and studying computer science for more than 2 years now. I have contributed to 3 upcoming Canadian Telescope missions: Hydrogen Intensity and Real-time Analysis eXperiment (HIRAX), Cosmological Advanced Survey Telescope for Optical and uv Research (CASTOR), and Photometric Observations of Exoplanet Transits (POET). In my free time, I love listening to orchestra or playing soccer. 
-                </h4>
-                <div 
+                    fontSize: "3rem",
+                    margin: "1%",
+                    color: '#e09971'
+                }}
+                color="inherit"
+                /> 
+                </Link>
+                </Tooltip>
+                <Tooltip title="GitHub">
+                <Link href="https://github.com/Dhananjhay" target="_blank">
+                <GitHubIcon 
                 style={{
-                        display: "flex",
-                }}>
-
-    <Link 
-    href="https://www.linkedin.com/in/dhananjhay-bansal-637105193/" target="_blank">
-    <LinkedInIcon 
-    fontSize={"large"}
-    color="inherit"
-    /> 
-    </Link>
-    <Link href="https://github.com/Dhananjhay" target="_blank">
-    <GitHubIcon 
-    fontSize={"large"}
-    color="inherit"
-    />
-    </Link>
-    <a href={cv} download="BANSAL_DHANANJHAY_RESUME" target="_blank">
-        <Button
-        style={{
-            marginLeft: '5%',
-            width: "100%"
-        }} 
-        variant="contained">
-            Download CV</Button>
-                    </a>
-                        </div>
+                    fontSize: "3rem",
+                    margin: "1%",
+                    color: '#9d95b0'
+                }}
+                color="inherit"
+                />
+                </Link>
+                </Tooltip>
+                <Tooltip title="Download CV">
+                <Link href={cv} download="BANSAL_DHANANJHAY_RESUME" target="_blank">
+                <ArticleIcon
+                style={{
+                    fontSize: "3rem",
+                    margin: "1%",
+                    color: '#feba67'
+                }}
+                color="inherit"
+                />
+                </Link>
+                </Tooltip>
+                <Tooltip title="Email">
+                <Link href="mailto:dhananjhay03@gmail.com" target="_blank">
+                <EmailIcon
+                style={{
+                    fontSize: "3rem",
+                    margin: "1%",
+                    color: '#e78a85'
+                }}
+                color="inherit"
+                />
+                </Link>
+                </Tooltip>
                 </div>
-        </div>
+                </div>
     )
 }
 

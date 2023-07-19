@@ -1,18 +1,16 @@
 import React from "react";
 import "./App.css"
-import Projects from "./components/Projects";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
+import TabForms from "./components/TabForms";
 
 function App() {
     return (
-        <>
-        <div className="App">
+        <div className="app">
             <Home/>
-            <Projects/>
-        </div>
+            <TabForms/>
             <Footer/>
-        </>
+        </div>
     )
 }
 

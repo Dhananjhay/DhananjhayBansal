@@ -1,32 +1,30 @@
 import React from "react";
+import { telescopeList } from "../data/data";
 import { Link } from "@mui/material";
 import GitHubIcon from '@mui/icons-material/GitHub';
-import '../App.css'
-import { projectList } from "../data/data";
 
-
-function Projects () {
+function FutureSpaceTeles () {
     return (
         <div>
-        {projectList.map((project) => {
+        {telescopeList.map((mission) => {
             return (
                     <div className="project">
                     <div>
                     <img 
                     style={{
-                        width: '400px',
-                        height: '350px',
+                        width: '280px',
+                        height: '250px',
                         maxWidth: '100%',
                         marginBottom: "1%",
-                        borderRadius: "10%"
+                        borderRadius: "50%"
                     }}
-                    src={project.img}/>
-                    {project.credit ? <p style={{
+                    src={mission.img}/>
+                    {mission.credit ? <p style={{
                         fontSize: '1rem'
-                    }}>Credits: {project.credit}</p>: null}
+                    }}>Credits: {mission.credit}</p>: null}
                     <p>
                     <Link 
-                    href={project.source_code} target="_blank">
+                    href={mission.source_code} target="_blank">
                     <GitHubIcon 
                     fontSize={"large"}
                     color="inherit"
@@ -36,7 +34,7 @@ function Projects () {
                     </div>
                     <div>
                     <h4>
-                        {project.description}
+                        {mission.description}
                         </h4>
                     </div>
                     </div>
@@ -46,4 +44,4 @@ function Projects () {
     )
 }
 
-export default Projects;
+export default FutureSpaceTeles;
