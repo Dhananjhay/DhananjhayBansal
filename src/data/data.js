@@ -27,7 +27,7 @@ export const telescopeList = [
     {
         img: poet,
         credit: 'Illustration by D. Aguilar/Harvard-Smithsonian Center for Astrophysics',
-        description: "The Photometric Observations of Exoplanet Transits (POET) is small space telescope that is proposed to launch in 2026 (the year my passport expires) for the study and detection of exoplanets. I worked on its transit simulation python package during my time at NRC.",
+        description: "The Photometric Observations of Exoplanet Transits (POET) is a small space telescope that is proposed to launch in 2026 (the year my passport expires) for the study and detection of exoplanets. I worked on its transit simulation python package during my time at NRC.",
         source_code: "https://github.com/jasonfrowe/poet"
     }
 ]
