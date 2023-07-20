@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DhananjhayBansal/static/css/main.059ef93d.css",
-    "main.js": "/DhananjhayBansal/static/js/main.cd484b28.js",
+    "main.js": "/DhananjhayBansal/static/js/main.9eb913be.js",
     "static/js/787.ac9e5380.chunk.js": "/DhananjhayBansal/static/js/787.ac9e5380.chunk.js",
     "static/media/cnn.jpeg": "/DhananjhayBansal/static/media/cnn.a9f6d93125a897ad8e58.jpeg",
     "static/media/Bansal_Dhananjhay_PHYS495.pdf": "/DhananjhayBansal/static/media/Bansal_Dhananjhay_PHYS495.1b9e501a2fc444db9bee.pdf",
@@ -9,17 +9,18 @@
     "static/media/bg.jpg": "/DhananjhayBansal/static/media/bg.24b4dbfb4b5132cb3dca.jpg",
     "static/media/poet.jpeg": "/DhananjhayBansal/static/media/poet.afb53e21e7b755ffea6d.jpeg",
     "static/media/covid-site.png": "/DhananjhayBansal/static/media/covid-site.50c428368ffa22044dd0.png",
+    "static/media/trappist1.jpeg": "/DhananjhayBansal/static/media/trappist1.dfa0c26c2d7f73345419.jpeg",
     "static/media/m83.jpg": "/DhananjhayBansal/static/media/m83.2ec632cd124bf5c44764.jpg",
     "static/media/BANSAL_DHANANJHAY_RESUME.pdf": "/DhananjhayBansal/static/media/BANSAL_DHANANJHAY_RESUME.a96edd753acdd30ef763.pdf",
     "static/media/cover_photo.jpeg": "/DhananjhayBansal/static/media/cover_photo.eb6cc885a371e8548330.jpeg",
     "static/media/logo_nobackground.webp": "/DhananjhayBansal/static/media/logo_nobackground.9b93de9dee0e3188a89e.webp",
     "index.html": "/DhananjhayBansal/index.html",
     "main.059ef93d.css.map": "/DhananjhayBansal/static/css/main.059ef93d.css.map",
-    "main.cd484b28.js.map": "/DhananjhayBansal/static/js/main.cd484b28.js.map",
+    "main.9eb913be.js.map": "/DhananjhayBansal/static/js/main.9eb913be.js.map",
     "787.ac9e5380.chunk.js.map": "/DhananjhayBansal/static/js/787.ac9e5380.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.059ef93d.css",
-    "static/js/main.cd484b28.js"
+    "static/js/main.9eb913be.js"
   ]
 }
