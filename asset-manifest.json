@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DhananjhayBansal/static/css/main.059ef93d.css",
-    "main.js": "/DhananjhayBansal/static/js/main.f3e7bc71.js",
+    "main.js": "/DhananjhayBansal/static/js/main.8c89b1b4.js",
     "static/js/787.ac9e5380.chunk.js": "/DhananjhayBansal/static/js/787.ac9e5380.chunk.js",
     "static/media/cnn.jpeg": "/DhananjhayBansal/static/media/cnn.a9f6d93125a897ad8e58.jpeg",
     "static/media/Bansal_Dhananjhay_PHYS495.pdf": "/DhananjhayBansal/static/media/Bansal_Dhananjhay_PHYS495.1b9e501a2fc444db9bee.pdf",
@@ -15,11 +15,11 @@
     "static/media/logo_nobackground.webp": "/DhananjhayBansal/static/media/logo_nobackground.9b93de9dee0e3188a89e.webp",
     "index.html": "/DhananjhayBansal/index.html",
     "main.059ef93d.css.map": "/DhananjhayBansal/static/css/main.059ef93d.css.map",
-    "main.f3e7bc71.js.map": "/DhananjhayBansal/static/js/main.f3e7bc71.js.map",
+    "main.8c89b1b4.js.map": "/DhananjhayBansal/static/js/main.8c89b1b4.js.map",
     "787.ac9e5380.chunk.js.map": "/DhananjhayBansal/static/js/787.ac9e5380.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.059ef93d.css",
-    "static/js/main.f3e7bc71.js"
+    "static/js/main.8c89b1b4.js"
   ]
 }
